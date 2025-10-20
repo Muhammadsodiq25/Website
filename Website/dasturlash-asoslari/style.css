@@ -1,0 +1,295 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html {
+  font-family: 'Arial', sans-serif;
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: #ffcb05;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.logo {
+  font-weight: bold;
+  color: #d60000;
+  font-size: 20px;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+.btn-red {
+  background-color: red;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.hero {
+  background: url('87575adc-c8cb-4bae-8ec8-3aa779dd77c0.png') no-repeat center center/cover;
+  height: 90vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 40px;
+  text-align: center;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.highlight-text {
+  background-color: #ffcb05;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn-yellow {
+  background-color: #ffcb05;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.btn-white {
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 60px 10%;
+  background-color: #fff;
+  text-align: center;
+  gap: 40px;
+}
+
+.feature-box {
+  flex: 1;
+  border-right: 1px solid #ccc;
+  padding: 0 20px;
+}
+
+.feature-box:last-child {
+  border-right: none;
+}
+
+.feature-box img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  background-color: #ffc800;
+  border-radius: 50%;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.feature-box h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.feature-box p {
+  font-size: 16px;
+  color: #000;
+  line-height: 1.5;
+}
+
+.course-result {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 10%;
+  background-color: #f59e2d;
+  background-image: url('pattern-bg.png');
+  /* Optional: fon pattern bor rasm bo‘lsa */
+  background-size: cover;
+  background-repeat: repeat;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.course-result .content {
+  flex: 1;
+  max-width: 600px;
+}
+
+.course-result h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.course-result ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+.course-result ul li {
+  font-size: 18px;
+  margin-bottom: 20px;
+  background-color: white;
+  color: #000;
+  padding: 15px 20px;
+  border-radius: 4px;
+  max-width: 500px;
+}
+
+.course-result .btn-white {
+  background-color: white;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 14px 25px;
+  border-radius: 30px;
+  font-size: 16px;
+  display: inline-block;
+}
+
+.course-result .image {
+  flex: 1;
+  text-align: center;
+}
+
+.course-result .image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.learn-section {
+  text-align: center;
+  padding: 80px 10% 60px;
+  background-color: white;
+}
+
+.learn-section h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+
+.learn-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.learn-item {
+  flex: 1 1 200px;
+  max-width: 250px;
+  margin: 0 auto;
+}
+
+.learn-item img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+
+.learn-item p {
+  font-size: 16px;
+  color: #000;
+  line-height: 1.5;
+}
+
+.start-btn {
+  display: inline-block;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  padding: 15px 30px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.start-btn:hover {
+  background-color: darkred;
+}
+
+
+.oquv-dasturi-timeline {
+  display: flex;
+  gap: 50px;
+  padding: 50px 135px;
+  background-color: rgb(202, 199, 199);
+}
+
+.left-h1 {
+  font-size: 45px;
+}
+
+.oquv-dasturi-timeline-cart {
+  padding: 50px;
+  border-radius: 50px;
+  background-color: white;
+  margin-top: 50px;
+}
+
+
+.oquv-dasturi-timeline-cart-ol {
+  margin-top: 20px;
+}
+
+.oquv-dasturi-timeline-cart-li {
+  margin-top: 15px;
+}
+
+
+.oquv-dasturi-timeline-cart-p {
+  color: red;
+} 
